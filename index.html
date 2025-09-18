@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pecamo International — Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Pecamo International homepage">
+        <img src="images/logo.svg" alt="" />
+       Pecamo International
+      </a>
+      <nav class="nav" role="navigation" aria-label="Main Navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main class="container" id="main" role="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-left reveal">
+        <p class="kicker">Design • Build • Launch</p>
+        <h1 id="hero-title">We craft delightful digital experiences.</h1>
+        <p class="lead">Design-first development for web projects that scale. We deliver clear UX, performant code, and measurable results.</p>
+        <div class="hero-cta">
+          <a href="contact.html" class="btn">Get Started</a>
+          <a href="services.html" class="btn secondary">Our Services</a>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <img src="images/hero.jpg" alt="Illustration of product design" style="width:100%;border-radius:12px;display:block" />
+      </div>
+    </section>
+
+    <section style="margin-top:1.5rem;">
+      <h2 class="kicker">Featured Work</h2>
+      <div class="grid" aria-live="polite">
+        <article class="card reveal" tabindex="0">
+          <h3>Project Atlas</h3>
+          <p>Brand identity and frontend for a fintech startup.</p>
+          <p><a href="#" class="btn" style="padding:.4rem .6rem;font-size:.9rem">View case</a></p>
+        </article>
+
+        <article class="card reveal" tabindex="0">
+          <h3>Commerce Redesign</h3>
+          <p>Performance-focused e-commerce rebuild with PWA features.</p>
+        </article>
+
+        <article class="card reveal" tabindex="0">
+          <h3>Design System</h3>
+          <p>Reusable components and tokens for consistent UI across teams.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container" role="contentinfo">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;">
+      <div>
+        <strong>Pecamo Int'l</strong><br />
+        <small>&copy; <span id="year"></span> Pecamo Int'l. All rights reserved.</small>
+      </div>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="services.html">Services</a> · <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // small inline date filler
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

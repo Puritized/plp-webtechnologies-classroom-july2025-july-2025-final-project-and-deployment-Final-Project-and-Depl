@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pecamo International — Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Pecamo International homepage"><img src="images/logo.svg" alt="pecamo" />Pecamo International</a>
+      <nav class="nav" role="navigation" aria-label="Main Navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <section style="padding:2rem 0;">
+      <h1 class="reveal">Contact Us</h1>
+      <p class="lead reveal">Have a project or question? Send us a message and we'll respond within 2 business days.</p>
+    </section>
+
+    <section style="margin-top:1rem;" class="reveal">
+      <form id="contact-form" aria-label="Contact form">
+        <div class="form-row">
+          <div style="flex:1">
+            <label for="name">Name</label>
+            <input class="input" id="name" name="name" type="text" required />
+          </div>
+          <div style="flex:1">
+            <label for="email">Email</label>
+            <input class="input" id="email" name="email" type="email" required />
+          </div>
+        </div>
+
+        <div style="margin-top:.75rem;">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <div style="margin-top:.75rem;">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer container" role="contentinfo">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;">
+      <div><strong>Pecamo International</strong><br /><small>&copy; <span id="year"></span></small></div>
+      <nav aria-label="Footer"><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="services.html">Services</a> · <a href="contact.html">Contact</a></nav>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="js/main.js"></script>
+</body>
+</html>

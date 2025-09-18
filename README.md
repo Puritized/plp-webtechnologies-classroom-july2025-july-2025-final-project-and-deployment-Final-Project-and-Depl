@@ -5,6 +5,7 @@ You're now ready to bring everything together—HTML, CSS, JavaScript, planning,
 This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
 
 ---
+Live url: https://puritized.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl
 
 ## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
 
@@ -79,6 +80,7 @@ Deploy your project and confirm that:
 2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
 
 ---
+Live url: https://puritized.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl
 
 ## Outcome
 

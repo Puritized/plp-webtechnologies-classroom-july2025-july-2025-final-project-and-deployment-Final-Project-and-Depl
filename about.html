@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pecamo International — About</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- header (same as index) -->
+  <header class="header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="pecamo international homepage"><img src="images/logo.svg" alt="" />Atlas Studio</a>
+      <nav class="nav" role="navigation" aria-label="Main Navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <section style="padding:2rem 0;">
+      <h1 class="reveal">About Pecamo International</h1>
+      <p class="reveal" style="margin-top:.5rem;">We are a small team of designers and engineers building digital products with a focus on accessibility and performance.</p>
+    </section>
+
+    <section class="grid" style="margin-top:1rem;">
+      <div class="card reveal">
+        <h3>Our Mission</h3>
+        <p>Design systems and web apps that put humans first.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Values</h3>
+        <ul>
+          <li>Clarity</li>
+          <li>Performance</li>
+          <li>Accessibility</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container" role="contentinfo">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;">
+      <div><strong>Pecamo International</strong><br /><small>&copy; <span id="year"></span></small></div>
+      <nav aria-label="Footer"><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="services.html">Services</a> · <a href="contact.html">Contact</a></nav>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="js/main.js"></script>
+</body>
+</html>
